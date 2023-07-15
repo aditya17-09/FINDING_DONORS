@@ -15,12 +15,7 @@ import numpy as np
 import pandas as pd
 from time import time
 from sklearn.metrics import f1_score, accuracy_score
-import streamlit as st  # pylint: disable=import-error
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
-st.write("""
-# Visualizations
-""")
 
 def distribution(data, transformed = False):
     """
